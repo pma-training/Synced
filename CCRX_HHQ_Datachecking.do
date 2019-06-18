@@ -136,19 +136,10 @@ label var handwashing_place_rw				"Can you show me where members most often wash
 label var handwashing_place_observations	"At handwashing observe soap, water, sanitation"
 
 rename water_main_drinking_select water_sources_main_drinking
-rename water_main_other water_sources_main_other
 
 label var water_sources_all					"Which water sources used for any purpose"
 label var number_of_sources					"Number of sources in water_sources_all"
 label var water_sources_main_drinking 		"Main source of drinking water"
-label var water_sources_main_other			"Main source of cooking/ handwashing water"
-label var source_labels						"Water sources mentioned"
-label var water_main_drinking				"Main drinking water among all sources mentioned"
-
-label var water_uses 						"Use of main water source"
-label var water_months_avail				"Availability of main water source during year"
-label var water_reliability					"Availability of main water source when expected"
-label var water_collection					"Minutes in round trip to main water source"
 
 label var sanitation_all					"Use any of the following toilet facilities"
 capture label var sanitation_all_other		"Other toilet facility specified"
